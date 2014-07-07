@@ -4,6 +4,18 @@
 
 Validate a data object against some predefined rules
 
+## Installation
+
+Using npm:
+```
+$ npm install --save-dev invalid.js
+```
+
+Using bower:
+```
+$ bower install --save-dev invalid.js
+```
+
 ## Usage
 
 ## Documentation

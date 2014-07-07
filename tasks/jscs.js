@@ -1,7 +1,8 @@
 module.exports = {
   options: {
     preset: 'google',
-    config: '.jscs.json'
+    config: '.jscs.json',
+    reporter: 'inline'
   },
   lib: ['lib/{,*/}*.js'],
   test: ['test/spec/{,*/}*.js'],

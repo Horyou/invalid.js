@@ -4,7 +4,6 @@ module.exports = {
     dest: 'dist/<%= pkg.name %>',
     template: 'umd',
     objectToExport: 'Ruler',
-    amdModuleId: 'ruler',
     indent: '  '
   }
 };

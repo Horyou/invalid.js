@@ -1,6 +1,6 @@
 {
   "name": "invalid.js",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Validate a data object against some predefined rules",
   "main": "dist/invalid.js",
   "readmeFilename": "README.md",
@@ -32,7 +32,13 @@
     "time-grunt": "^0.3.2"
   },
   "keywords": [
-    "validator", "validation", "validate", "sanitization",
-    "sanitize", "sanitisation", "sanitise", "assert"
+    "validator",
+    "validation",
+    "validate",
+    "sanitization",
+    "sanitize",
+    "sanitisation",
+    "sanitise",
+    "assert"
   ]
 }

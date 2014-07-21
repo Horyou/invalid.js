@@ -1,5 +1,5 @@
-/*! invalid.js - v0.1.0
- *  Release on: 2014-07-07
+/*! invalid.js - v0.1.1
+ *  Release on: 2014-07-21
  *  Copyright (c) 2014 Stéphane Bachelier
  *  Licensed MIT */
 (function(root, factory) {
@@ -7,7 +7,7 @@
         module.exports = factory();
     }
     else if(typeof define === 'function' && define.amd) {
-        define('ruler', [], factory);
+        define([], factory);
     }
     else {
         root['Ruler'] = factory();
@@ -36,6 +36,9 @@
     // ## _checkRules
     // this is the method which really apply the validation
     _checkRules: function (rule, value) {
+      if (this.validator) {
+        throw new Error('validator is not defined.');
+      }
       return this.validator[rule.rule].apply(null, rule.options ? [value, rule.options] : [value]);
     },
 

@@ -30,5 +30,9 @@
     "jshint-stylish": "^0.2.0",
     "load-grunt-config": "^0.10.0",
     "time-grunt": "^0.3.2"
-  }
+  },
+  "keywords": [
+    "validator", "validation", "validate", "sanitization",
+    "sanitize", "sanitisation", "sanitise", "assert"
+  ]
 }

@@ -22,6 +22,14 @@ define(function (require, module, exports) {
 
     alpha: function (value) {
       return validator.isAlpha(value);
+    },
+
+    before: function (value, options) {
+      return validator.isBefore(value, options ? options.date : '');
+    },
+
+    match: function (value, options) {
+      return validator.matches(value, options ? options.pattern : '');
     }
   };
 

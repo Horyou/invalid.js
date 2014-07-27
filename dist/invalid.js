@@ -1,5 +1,5 @@
-/*! invalid.js - v0.1.1
- *  Release on: 2014-07-21
+/*! invalid.js - v0.1.2
+ *  Release on: 2014-07-27
  *  Copyright (c) 2014 Stéphane Bachelier
  *  Licensed MIT */
 (function(root, factory) {

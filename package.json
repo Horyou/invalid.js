@@ -1,6 +1,6 @@
 {
   "name": "invalid.js",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Validate a data object against some predefined rules",
   "main": "dist/invalid.js",
   "readmeFilename": "README.md",

@@ -22,7 +22,8 @@ module.exports = function (grunt) {
     config: config,
     jitGrunt: {
       jscs: 'grunt-jscs-checker',
-      changelog: 'grunt-conventional-changelog'
+      changelog: 'grunt-conventional-changelog',
+      amdwrap: 'grunt-amd-wrap',
     }
   });
 };

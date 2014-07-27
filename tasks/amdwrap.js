@@ -2,7 +2,8 @@ module.exports = {
   plugins: {
     expand: true,
     cwd: 'lib/plugins',
-    src: ['{,/*}*.js'],
-    dest: 'dist/plugins'
+    src: ['*.js'],
+    dest: 'dist/plugins',
+    nonull: true,
   }
 };

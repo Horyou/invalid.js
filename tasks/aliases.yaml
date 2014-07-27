@@ -8,5 +8,5 @@ build:
   - lintspaces:lib
   - umd:dist
   - concat
-  - copy:plugins
+  - amdwrap:plugins
   - uglify

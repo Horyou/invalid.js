@@ -1,4 +1,4 @@
-/*! invalid.js - v0.1.3
+/*! invalid.js - v0.1.4
  *  Release on: 2014-08-28
  *  Copyright (c) 2014 Stéphane Bachelier
  *  Licensed MIT */
@@ -36,7 +36,7 @@
     // ## _checkRules
     // this is the method which really apply the validation
     _checkRules: function (rule, value) {
-      if (this.validator) {
+      if (!this.validator) {
         throw new Error('validator is not defined.');
       }
       return this.validator[rule.rule].apply(null, rule.options ? [value, rule.options] : [value]);

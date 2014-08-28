@@ -34,7 +34,7 @@ define(function (require, exports, module) { // jshint unused:false
   };
 
   // expose public API
-  exports = {
+  module.exports = {
     defaults: defaults,
     rules: rules
   };

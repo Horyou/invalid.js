@@ -1,6 +1,6 @@
 {
   "name": "invalid.js",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Validate a data object against some predefined rules",
   "main": "dist/invalid.js",
   "author": {

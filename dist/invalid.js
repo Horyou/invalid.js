@@ -1,4 +1,4 @@
-/*! invalid.js - v0.1.4
+/*! invalid.js - v0.1.5
  *  Release on: 2014-08-28
  *  Copyright (c) 2014 Stéphane Bachelier
  *  Licensed MIT */
@@ -39,7 +39,7 @@
       if (!this.validator) {
         throw new Error('validator is not defined.');
       }
-      return this.validator[rule.rule].apply(null, rule.options ? [value, rule.options] : [value]);
+      return this.validator.rules[rule.rule].apply(null, rule.options ? [value, rule.options] : [value]);
     },
 
     _validateField: function (name, value) {

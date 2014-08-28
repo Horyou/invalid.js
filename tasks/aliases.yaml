@@ -3,10 +3,22 @@ default:
 
 build:
   - clean
+  - lint
+  - buildbundle
+  - buildlib
+  - uglify
+  
+lint:
   - jshint:lib
   - jscs:lib
   - lintspaces:lib
+
+buildbundle:
+  - preprocess
+  - concat:bundle
+
+buildlib:
   - umd:dist
-  - concat
-  - amdwrap:plugins
-  - uglify
+  - concat:dist
+  - umd:plugins
+  - concat:plugins

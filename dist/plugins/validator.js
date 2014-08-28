@@ -1,4 +1,4 @@
-define(function (require, module, exports) {
+define(function (require, exports, module) { // jshint unused:false
   'use strict';
 
   var validator = require('validator');
